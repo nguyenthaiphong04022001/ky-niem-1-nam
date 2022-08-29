@@ -120,18 +120,19 @@ html{
   /* background: #ff2a2a; */
   border-radius: 100%;
   animation: animate linear infinite forwards;
-  background-image: url(./img/heart2.png);
   background-image: url(./img/oneyear.png);
-  background-size: contain;
+  background-size:contain;
   z-index: 1;
 }
 .wrapper i:nth-child(even) {
-  background-image: url(./img/cake.png);
-  background-image: url(./img/heart2.png);
+  background-image: url(./img/love.png);
   background-size: cover;
+  
   /* background: transparent; */
   /* border: 1px solid #ff2a2a; */
 }
+
+
 @keyframes animate {
   0%{
     transform: translateY(0);
